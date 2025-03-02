@@ -39,7 +39,7 @@ var c_days = "Días";                            //Countdown "Days" label
 var c_hours = "Horas";                          //Countdown "Hours" label
 var c_minutes = "Min.";                         //Countdown "Minutes" label
 var c_seconds = "Seg.";                         //Countdown "Seconds" label
-var countdown_end_msg = "El event ya ha empezado!";       //Message to display when the countdown reaches the end
+var countdown_end_msg = "El evento ya ha empezado!";       //Message to display when the countdown reaches the end
 
 
 //GOOGLE MAP VARIABLES
