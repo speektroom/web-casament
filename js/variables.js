@@ -20,8 +20,7 @@ var slidehow_images = [
     "images/fotos/foto15.jpeg",
     "images/fotos/foto12.jpeg",
     "images/fotos/foto5.jpeg", 
-    "images/fotos/foto6.jpeg",
-    "images/fotos/foto17.jpeg"
+    "images/fotos/foto6.jpeg"
     //"https://via.placeholder.com/1920x1080.png"
 ];
 
