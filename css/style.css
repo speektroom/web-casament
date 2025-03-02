@@ -67,39 +67,57 @@
 ================================================== */
 #our-story-title {
   background-image: url("https://via.placeholder.com/1920x1080.png");
+  background-position: center center;
+  background-size: cover;
 }
 
 #location {
   background-image: url("../images/MasiaFoto5.png");
+  background-position: center center;
+  background-size: cover;
 }
 
 #the-wedding, #dress-code, #reminder {
   background-image: url("../images/White_Roses_Wedding_Background.jpg");
+  background-position: center center;
+  background-size: cover;
 }
 
 #bridesmaids,
 #bmiadsgmen {
   background-image: url("https://via.placeholder.com/1920x1080.png");
+  background-position: center center;
+  background-size: cover;
 }
 
 #groomsmen {
   background-image: url("https://via.placeholder.com/1920x1080.png");
+  background-position: center center;
+  background-size: cover;
 }
 
 #giftregistry {
   background-image: url("https://via.placeholder.com/1920x1080.png");
+  background-position: center center;
+  background-size: cover;
 }
 
 .page-header {
   background-image: url("https://via.placeholder.com/1920x1080.png");
+  background-position: center center;
+  background-size: cover;
 }
 
 #menu-image {
   background-image: url("https://via.placeholder.com/970x890.png");
+  background-position: center center;
+  background-size: cover;
 }
 
 #our-partners {
   background-image: url("https://via.placeholder.com/1920x1080.png");
+  background-position: center center;
+  background-size: cover;
 }
 
 /* #Typography
@@ -3109,8 +3127,10 @@ p.center {
 .wedding-details:last-child::after {
   display: none;
 }
-.wedding-details.nochild::after {
-  display: none;
+@media (min-width: 768px) {
+  .wedding-details.nochild::after {
+    display: none;
+  }
 }
 .wedding-details.light {
   color: #fff;
