@@ -5944,4 +5944,25 @@ textarea.form-control {
 }
 #transport ul {
   list-style: none;
+}
+#transport .side-flowers {
+  opacity: 0.3;
+}
+
+#location p, #location h4, #location a {
+  color: white;
+}
+#location p, #location ul {
+  font-size: 14pt;
+}
+#location p.no-margin {
+  margin: 0 0 0 0;
+}
+#location ul {
+  list-style: none;
+}
+@media (max-width: 650px) {
+  #location .side-flowers {
+    opacity: 0.3;
+  }
 }/*# sourceMappingURL=style.css.map */

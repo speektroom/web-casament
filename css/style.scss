@@ -6866,6 +6866,30 @@ textarea.form-control{
 	ul {
 		list-style: none;
 	}
+	.side-flowers{
+		opacity: 0.3;
+	}
+}
+
+#location {
+	p,h4,a {
+		color: white
+	}
+	p,ul {
+		font-size: 14pt;
+	}
+	p.no-margin {
+		margin: 0 0 0 0;
+	}
+	ul {
+		list-style: none;
+	}
+
+	@media (max-width: 650px) {
+		.side-flowers{
+			opacity: 0.3;
+		}
+	}
 }
 
 //---------------------------------------------------
