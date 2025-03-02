@@ -6892,4 +6892,17 @@ textarea.form-control{
 	}
 }
 
+#the-wedding {
+	p,h4,h5 {
+		color: white
+	}
+}
+
+img.dress-icon {
+	filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(324deg) brightness(96%) contrast(104%); //forces white color on the icon
+	width: 100px;
+}
+
+
+
 //---------------------------------------------------

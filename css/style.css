@@ -5965,4 +5965,13 @@ textarea.form-control {
   #location .side-flowers {
     opacity: 0.3;
   }
+}
+
+#the-wedding p, #the-wedding h4, #the-wedding h5 {
+  color: white;
+}
+
+img.dress-icon {
+  filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(324deg) brightness(96%) contrast(104%);
+  width: 100px;
 }/*# sourceMappingURL=style.css.map */
