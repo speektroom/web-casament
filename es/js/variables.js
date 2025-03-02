@@ -35,11 +35,11 @@ var contact_form_recaptcha_error_msg = "Error verifying reCaptcha!";
 
 
 //COUNTDOWN VARIABLES
-var c_days = "Dies";                            //Countdown "Days" label
-var c_hours = "Hores";                          //Countdown "Hours" label
+var c_days = "Días";                            //Countdown "Days" label
+var c_hours = "Horas";                          //Countdown "Hours" label
 var c_minutes = "Min.";                         //Countdown "Minutes" label
 var c_seconds = "Seg.";                         //Countdown "Seconds" label
-var countdown_end_msg = "L'Event ja ha començat!";       //Message to display when the countdown reaches the end
+var countdown_end_msg = "El event ya ha empezado!";       //Message to display when the countdown reaches the end
 
 
 //GOOGLE MAP VARIABLES
