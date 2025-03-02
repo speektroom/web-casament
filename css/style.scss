@@ -149,13 +149,13 @@ $pattern: url('../images/neela-pattern.png');
     @include background-image-retina("../images/MasiaFoto5", 'png');
 }
 
-#the-wedding{
+#the-wedding, #dress-code, #reminder {
 	@include background-image-retina("../images/White_Roses_Wedding_Background", 'jpg');
 }
 
 #bridesmaids,
-#bmiadsgmen{
-	@include background-image-retina("../images/White_Roses_Wedding_Background", 'jpg');
+#bmiadsgmen {
+	@include background-image-retina("https://via.placeholder.com/1920x1080", 'png');
 }
 
 #groomsmen{
@@ -6892,10 +6892,13 @@ textarea.form-control{
 	}
 }
 
-#the-wedding {
+#the-wedding, #dress-code {
 	p,h4,h5 {
 		color: white
 	}
+}
+#reminder {
+	z-index:100;
 }
 
 img.dress-icon {

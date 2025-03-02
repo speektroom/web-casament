@@ -73,13 +73,13 @@
   background-image: url("../images/MasiaFoto5.png");
 }
 
-#the-wedding {
+#the-wedding, #dress-code, #reminder {
   background-image: url("../images/White_Roses_Wedding_Background.jpg");
 }
 
 #bridesmaids,
 #bmiadsgmen {
-  background-image: url("../images/White_Roses_Wedding_Background.jpg");
+  background-image: url("https://via.placeholder.com/1920x1080.png");
 }
 
 #groomsmen {
@@ -5967,8 +5967,12 @@ textarea.form-control {
   }
 }
 
-#the-wedding p, #the-wedding h4, #the-wedding h5 {
+#the-wedding p, #the-wedding h4, #the-wedding h5, #dress-code p, #dress-code h4, #dress-code h5 {
   color: white;
+}
+
+#reminder {
+  z-index: 100;
 }
 
 img.dress-icon {
