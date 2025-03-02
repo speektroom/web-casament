@@ -48,8 +48,8 @@
 
 /* #Variables
 ================================================== */
-$color: #8eaeba;
-$text-color: #73777b;
+$color: #A7AD94;
+$text-color: #8F9779;
 $sat-color: saturate($color, 6%);
 $color-overlay: darken($color, 33%);
 $section-bg-color: #f9f9f9;
@@ -142,13 +142,17 @@ $pattern: url('../images/neela-pattern.png');
     @include background-image-retina("https://via.placeholder.com/1920x1080", 'png');
 }
 
+#location{
+    @include background-image-retina("../images/MasiaFoto", 'jpg');
+}
+
 #the-wedding{
-	@include background-image-retina("https://via.placeholder.com/1920x1080", 'png');
+	@include background-image-retina("../images/White_Roses_Wedding_Background", 'jpg');
 }
 
 #bridesmaids,
 #bmiadsgmen{
-	@include background-image-retina("https://via.placeholder.com/1920x1080", 'png');
+	@include background-image-retina("../images/White_Roses_Wedding_Background", 'jpg');
 }
 
 #groomsmen{
@@ -3554,7 +3558,7 @@ p.center{
 
 		small{
 			font-family:$font-family;
-			font-size:11pt;
+			font-size:15pt;
 			display:block;
 			margin-top:6px;
 		}
