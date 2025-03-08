@@ -6000,6 +6000,14 @@ img.dress-icon {
   width: 100px;
 }
 
+img.beach-icon {
+  filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(324deg) brightness(96%) contrast(10%);
+  width: 100px;
+}
+
+.alojamiento .bold {
+  font-weight: bold;
+}
 .alojamiento .padding-sides {
   padding: 0 30px;
 }
