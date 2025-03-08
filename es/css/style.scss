@@ -6911,6 +6911,33 @@ img.dress-icon {
 	width: 100px;
 }
 
+.alojamiento {
+	.padding-sides {
+		padding: 0 30px;
+	}
+	
+	@media (min-width: 768px) {
+		.height-alignment {
+			min-height: 240px;
+		}
+	}
+	@media (min-width: 992px) {
+		.height-alignment {
+			min-height: 144px;
+		}
+	}
 
+	@media (min-width: 1200px) {
+		.height-alignment {
+			min-height: 120px;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.height-alignment {
+			min-height: 96px;
+		}
+	}
+}
 
 //---------------------------------------------------

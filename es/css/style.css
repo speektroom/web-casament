@@ -5998,4 +5998,28 @@ textarea.form-control {
 img.dress-icon {
   filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(324deg) brightness(96%) contrast(104%);
   width: 100px;
+}
+
+.alojamiento .padding-sides {
+  padding: 0 30px;
+}
+@media (min-width: 768px) {
+  .alojamiento .height-alignment {
+    min-height: 240px;
+  }
+}
+@media (min-width: 992px) {
+  .alojamiento .height-alignment {
+    min-height: 144px;
+  }
+}
+@media (min-width: 1200px) {
+  .alojamiento .height-alignment {
+    min-height: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .alojamiento .height-alignment {
+    min-height: 96px;
+  }
 }/*# sourceMappingURL=style.css.map */
